@@ -1,0 +1,15 @@
+###############deterministic_run_grid_32_t27_to_t45.py############
+t_start = 27
+initial condition: coarse grained high res. velocity and temp fields
+Recording vel and temp. at 9 observation points
+
+##################vel_temp_recording_adapted_sol_grid_32_t27_to_t45_var_90.py############
+t_start = 27
+initial condition: coarse grained high res. velocity and temp fields
+External forcing obtained from calibration data is used to create an adapted ref. solution. 
+The small scale unresolved process information is parameterized as deterministic forcing. 
+
+
+#################initial condition: coarse grained high res. velocity and temp fields.py##########
+Load .h5 file containing high res. velocity. Coarse grain to make it suitable for running on 
+coarse grids. 

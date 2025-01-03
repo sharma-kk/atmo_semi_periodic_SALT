@@ -1,0 +1,13 @@
+##########coarse_graining_residual_disp_calc_t27_to_t30_decor_t_32min.py#########
+As the name suggest, we take the high res. data from t27 to t30, coarse grain it
+and calculate (u- u_avg)Dt where Dt = 0.04 and c=1/32
+We do similar procedure for other time intervals. 
+
+#########calculation_of_xi_combined_x_y_comp_grid_32_c_1_by_32_decor_time_32min_t=27_to_t=45.ipynb#########
+xi are calculated from (u-u_avg)Dt data. 
+We save the the xi in the folder ./xi_vec_data
+
+
+##########xi_visualization_grid_32_decor_t_32min_t27_to_t45.py##########
+the calculated xi are visualized. 
+

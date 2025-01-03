@@ -1,0 +1,17 @@
+This file contains details of all the tests conducted.
+################test1.py###############
+High res. simulation
+ran from balanced initial conditions with perturbation in temp field
+Dt = 0.005
+Re = Pe = 3*10**5
+t_start = 0, t_end = 54
+Printed results every 9 time units (5 days) (as pvd files). Also saved the vel and temp fields in .h5 files
+Saved kinetic energy at time step (4 min)
+Ran the code on 32 cores. It took 35 hours to complete the run.
+Observations: The kinetic energy stabilized after dropping in the initial days. (see kinetic energy plot
+in ./plots/KE_plot_atm_till_t54.pdf)
+
+############calibration_data_collection.py###############
+I am saving .h5 files which corresponds to high res simulation
+from t=15 days to t= 25 days. I am saving results at coarse grid time step (corresponding 64x448 mesh) intervals.
+Ran on 32 cores.

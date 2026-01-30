@@ -18,9 +18,13 @@ These equations represent a stochastic extension of the deterministic two-dimens
 \end{aligned}
 ```
 We solve the atmosphere model on a 2D domain with periodic boundary conditions applied in the zonal (East-West) direction. This configuration approximates mid-latitude atmospheric flow between $27.5^{\circ}$ and $62.5^{\circ}$ north latitude. Along the meridional (North–South) boundaries, we impose free-slip conditions on velocity:
-$$ u_2=0, \quad \frac{\partial u_1}{\partial y} = 0,$$
+```math
+ u_2=0, \quad \frac{\partial u_1}{\partial y} = 0,
+```
 and insulated boundary conditions for temperature:
-$$\frac{\partial \theta}{\partial y} = 0.$$
+```math
+\frac{\partial \theta}{\partial y} = 0.
+```
 Three different mesh configurations are considered for the numerical experiments (see table below). The idea is to run the deterministic model on the fine grid with size $1792 \times 256$ and use the high-resolution velocity data to calibrate the stochastic model which can later be run on coarser grids. 
 
 | Parameter        | Fine grd           | Coarse grid 1  | Coarse grid 2|
